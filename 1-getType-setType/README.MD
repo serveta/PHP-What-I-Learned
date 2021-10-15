@@ -1,2 +1,2 @@
-#How to use gettype() and settype()
+# How to use gettype() and settype()
 
