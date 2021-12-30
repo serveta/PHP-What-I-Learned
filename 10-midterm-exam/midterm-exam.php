@@ -1,16 +1,15 @@
 <?php
 //Question-1: Without using the strlen() function measure a string length.
 
-function myStrlen($str){
-	$count = 0;
-	for($i=0;$i<60000;$i++){
-		if(@$str[$i] != ""){
-			$count++;             // Actually, this function is not good to solve this question but it solves the problem now :)
-		}else{
-			break;
-		}
-	}
-	echo $count;
+function myStrLen($val){
+    $arr = array();
+    for($i=0;$i<99999;$i++){
+        $arr[$i] = substr($val,$i,1);
+        if(empty($arr[$i])){
+            break;
+        }
+    }
+    echo count($arr)-1;
 }
 
 myStrlen("hellO"); // 5
