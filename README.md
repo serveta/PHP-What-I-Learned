@@ -13,4 +13,4 @@ We learned PHP language-specific code blocks and functions that will help us thi
 
 # Some notes
 - I took my lessons in Turkish. However, I thought it would be appropriate to write my articles in English in order to appeal to everyone.
-- I will share my applied project assignment here soon.
+- It was my applied project assignment: https://github.com/serveta/emlak-proje
